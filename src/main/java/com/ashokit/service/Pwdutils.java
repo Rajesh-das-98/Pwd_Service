@@ -9,6 +9,6 @@ public class Pwdutils {
 		Encoder encoder = Base64.getEncoder();
 		byte[] encode = encoder.encode(pwd.getBytes());
 		String encodePwd = new String(encode);
-		return encodePwd;
+		return null;
 	}
 }
